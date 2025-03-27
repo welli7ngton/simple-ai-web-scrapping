@@ -20,7 +20,7 @@ Organiza os dados coletados em um arquivo JSON.
 
 - OpenAI GPT-4o (Processamento de texto)
 
-[Browser-Use](https://github.com/browser-use/browser-use) (Interação automatizada com a web)
+- [Browser-Use](https://github.com/browser-use/browser-use) (Interação automatizada com a web)
 
 ### 📄 Como Funciona?
 O agente acessa os perfis especificados no GitHub e Wakatime.
