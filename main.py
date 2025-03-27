@@ -13,7 +13,7 @@ llm = ChatOpenAI(
 
 urls = ['https://github.com/welli7ngton', 'https://wakatime.com/@welli7ngton']
 
-github_webscrap = f"""
+github_wakatime_task = f"""
     step 1: for each url in : {urls}
     step 2: Access, explore and pick some usefull habillities and experiences to put in a Software Engineer resume.
     step 3: Explore each page interacting with the sites, looking for experiences, projects, tech and skills,
@@ -41,7 +41,7 @@ async def main():
 
             Create a summary of technical skills based on the information gathered from the profile and the
             repository READMEs. Format the summary in JSON, including skills such as programming languages,
-            frameworks, tools, and any other relevant technical expertise.
+            frameworks, tools, and any other relevant technical expertise, mix all the data in only one JSON output.
         """,
         llm=llm,
     )
