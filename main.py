@@ -24,8 +24,7 @@ github_webscrap = f"""
     note 2: On Wakatime, i want you to get me the top five most used languages, top 3 text editors and top 3 Operating Systems.
 """
 
-# profile = 'https://github.com/welli7ngton'
-profile = 'https://github.com/LuizGup'
+profile = 'https://github.com/welli7ngton'
 
 
 async def main():
